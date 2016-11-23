@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+# MacOs
+.DS_Store
+
+# PHPStorm IDE
+/.idea
