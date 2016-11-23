@@ -1,0 +1,526 @@
+#header {
+    background: #1E2632 ;
+    padding: 10px ;
+}
+
+#search-text {
+    border-radius: 0px ;
+}
+
+.action-comment {
+    border-left: 2px solid #1E2632;
+    border-radius: 0px ;
+    box-shadow: none ;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.active-card {
+    background: #fff ;
+    border: 1px solid #e0e0e0 ;
+    transition: border 0.2s ease-out ;
+}
+
+.attachment-add-link-submit {
+    background: #1E2632 ;
+    box-shadow: none ;
+    color: #fff ;
+    font-weight: 700 ;
+}
+
+.board-canvas {
+    padding-top: 20px
+;
+}
+
+.board-header {
+    height: 40px ;
+    margin-bottom: 20px ;
+    padding-bottom: 0px ;
+}
+
+.board-header-btn-name {
+    font-weight: 300 ;
+}
+
+.board-header-btn-name-org-logo {
+    -webkit-filter: contrast(3000%) invert(100%);
+}
+
+.board-header-btn-text {
+    text-decoration: none ;
+}
+
+.board-menu {
+    background: #fff ;
+}
+
+.boards-drawer {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    padding: 0px 24px;
+}
+
+.boards-drawer .empty, .boards-drawer .quiet-button {
+    margin: 12px 0px;
+    padding: 0px;
+}
+
+.boards-drawer input {
+    margin: 6px 0px;
+}
+
+.button-link, .card-detail-edit a {
+    color: #444 ;
+    font-weight: 300;
+}
+
+.button-link:hover, .card-detail-edit a:hover {
+    background: #1E2632 ;
+    border-color: #1E2632 ;
+    color: #fff ;
+}
+
+.card-detail-item {
+    margin-bottom: 40px;
+}
+
+.card-detail-item a, .comment-container a {
+    color: #5d90b7;
+    font-weight: normal;
+    text-decoration: underline ;
+}
+
+.card-detail-item-header {
+    display: none ;
+}
+
+.card-detail-item-header-edit {
+    display: none ;
+}
+
+.card-label {
+    text-shadow: 1px 1px 0px rgba(0,0,0,.2),0 0 0px #000;
+}
+
+.checklist-item-state-complete .checklist-item-checkbox {
+    background-color: #f6fff6 ;
+    border-color: #d5e8d5 ;
+}
+
+.checklist-item-state-complete .checklist-item-details-text {
+    color: #087308 ;
+}
+
+.checklist-item-state-complete .icon-check:before {
+    color: #087308 ;
+}
+
+.checklist-items-list {
+    border-top: 2px solid #e1e4e8;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.checklist-progress {
+    margin-bottom: 10px;
+    margin-top: -25px;
+}
+
+.checklist-progress-bar-current {
+    background: #4da914 ;
+}
+
+.dialog-close-button {
+    margin: 12px 12px 0px 0px ;
+}
+
+.edit-controls {
+    margin-top: 8px ;
+}
+
+.field {
+    box-shadow: none ;
+}
+
+.header-btn-text {
+    font-weight: 300 ;
+}
+
+.header-btn.header-notifications, .header-btn.header-boards, .header-btn.header-search, .header-btn.header-login, .header-btn.header-signup {
+    background: none ;
+}
+
+.header-btn:hover {
+    background: none ;
+}
+
+.header-member {
+    background: none ;
+}
+
+.header-user {
+    font-weight: 300 ;
+    right: 5px ;
+    top: 10px ;
+}
+
+.header-woof {
+    display: none ;
+}
+
+.js-add-board {
+    background: #fff ;
+    border: 1px solid #eee ;
+    color: #999 ;
+}
+
+.js-add-board:hover {
+    border: 1px solid #1E2632 ;
+    transition: border 0.2s ease-out ;
+}
+
+.js-add-list {
+    background: none ;
+    padding: 0px ;
+}
+
+.js-add-list span {
+    color: #bbb ;
+}
+
+.js-add-list span:hover {
+    color: #1E2632 ;
+}
+
+.js-add-list:hover {
+    color: #1E2632 ;
+}
+
+.js-board-drawer-buttons {
+    border-top: 2px solid #1E2632;
+    margin: 36px 0px;
+    margin-bottom: 12px;
+}
+
+.js-cancel {
+    margin-left: 4px;
+}
+
+.js-composer:hover {
+    border: 1px solid #eee ;
+}
+
+.js-open-board {
+    border: 1px solid #eee;
+    font-weight: 300 ;
+}
+
+.js-open-board:hover {
+    border-color: #ddd;
+}
+
+.js-open-move-from-header {
+    color: #1E2632 ;
+    font-weight: 300 ;
+}
+
+.list {
+    background: rgba(255, 255, 255, 0.9) ;
+    border: 1px solid #eee ;
+    border-radius: 0px;
+    padding: 8px ;
+}
+
+.list-area {
+    margin-top: 30px ;
+}
+
+.list-card {
+    border: 1px solid #eee ;
+    padding: 5px ;
+}
+
+.list-card-details {
+    padding: 2px;
+}
+
+.list-card-operation {
+    background: none ;
+}
+
+.list-cards {
+    margin: 0;
+    padding: 0;
+}
+
+.list-header {
+    margin: 5px 0px 10px 0px ;
+}
+
+.list-header-extras {
+    right: -6px;
+    top: -10px;
+}
+
+.list-header-extras:hover .list-header-extras-menu span, .list-header-extras:hover .list-header-extras-subscribe span {
+    color: #fff ;
+}
+
+.list-header-extras:hover .list-header-extras-menu, .list-header-extras:hover .list-header-extras-subscribe {
+    background: #333;
+}
+
+.list-header-name {
+    color: #1E2632 ;
+    font-weight: 700 ;
+    text-align: center;
+    text-transform: none;
+}
+
+.list-header.is-menu-shown, .list-header.is-subscribe-shown {
+    padding-right: 0;
+}
+
+.list-name-input {
+    background: #fff ;
+    border: 1px solid #eee ;
+    box-shadow: none ;
+    padding: 12px ;
+}
+
+.list-wrapper .placeholder {
+    background: #fff;
+    color: #333 ;
+    text-align: center;
+}
+
+.list-wrapper:first-child {
+    margin-left: 30px ;
+}
+
+.list-wrapper:hover .placeholder {
+    background: #333;
+    color: #fff ;
+}
+
+.list::before {
+    border-top: 5px solid ;
+    content: '';
+    left: -9px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    top: -9px;
+    width: 270px;
+}
+
+.member {
+    background: none ;
+    border: none ;
+    border-radius: 20px ;
+}
+
+.member img {
+    border: none ;
+    border-radius: 0 ;
+}
+
+.open-card-composer {
+    color: #333 ;
+    text-align: center;
+}
+
+.open-card-composer:hover {
+    background: #333 ;
+    color: #fff ;
+    text-decoration: none ;
+}
+
+.phenom {
+    border-bottom: 1px solid #eee;
+}
+
+.quiet-button:hover {
+    background: none;
+    color: #1E2632;
+}
+
+.sidebar-section-header {
+    margin: 1pc 30px 10px 0px;
+    position: relative;
+}
+
+.sidebar-section-header-title {
+    font-weight: 300 ;
+    text-decoration: none ;
+}
+
+.sidebar-section-header-toggle-icon:hover {
+    background: none;
+}
+
+.text {
+    text-decoration: none ;
+}
+
+.thumbnail {
+    background: #979798 ;
+}
+
+.ui-state-active {
+    background: #F45B5B ;
+}
+
+.window {
+    background-color: #1E2632 ;
+    border-radius: 0px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.window-header {
+    margin-top: 0px;
+}
+
+.window-header-icon {
+    display: none ;
+}
+
+.window-header-inline-content {
+    display: none;
+}
+
+.window-module {
+    margin-bottom: 40px;
+}
+
+.window-module-title {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding: 14px 0px 30px 0px ;
+}
+
+.window-module-title-icon {
+    display: none ;
+}
+
+.window-overlay {
+    background: rgba(255, 255, 255, 0.8) ;
+    /* blue background: rgba(30, 136, 229, 1) !important; */
+}
+
+.window-title {
+    margin-top: 20px;
+}
+
+.window-title-text {
+    font-weight: 700 ;
+}
+
+.window-wrapper {
+    background: #fff ;
+    margin-top: 4px;
+}
+
+body {
+    font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif ;
+    font-weight: 300 ;
+}
+
+h3 {
+    color: #000;
+    font-weight: 300 ;
+}
+
+input.js-search-boards {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px;
+    margin-bottom: 24px;
+    margin-top: 12px;
+    padding: 0px;
+}
+
+input.js-search-boards:focus {
+    border-color: #1E2632;
+    box-shadow: none;
+}
+
+input.js-search-boards:hover {
+    border-color: #1E2632;
+}
+
+input.primary {
+    background: #1E2632 ;
+    box-shadow: none ;
+    font-weight: 700 ;
+}
+
+input.primary:disabled {
+    background: none ;
+    border: 1px solid #eee;
+    color: #ddd ;
+}
+
+input.primary:hover {
+    background: #1E2632 ;
+}
+
+strong {
+    font-weight: 900 ;
+}
+
+/* ------------------- */
+
+/* --- CUSTOM BOARDS STYLES --- */
+
+/* Eagle */
+.eagle .board-header {
+    background: #663300 ;
+}
+
+.eagle .board-header * {
+    color: white ;
+}
+
+/* Decanter */
+.decanter .board-header {
+    background: #942424 ;
+    color: white;
+}
+
+/* Trusted Reviews */
+.trusted-reviews .board-header {
+    background: #ff6600 ;
+    color: white;
+}
+
+/* --- CUSTOM LIST STYLES --- */
+
+.list.current-sprint::before {
+    border-top-color: #12bae0 ;
+}
+
+.list.blocked::before {
+    border-top-color: #d81313 ;
+}
+
+.list.doing::before {
+    border-top-color: #e2840f ;
+}
+
+.list.review::before {
+    border-top-color: #fdf610 ;
+}
+
+.list.validating::before {
+    border-top-color: #c717ca ;
+}
+
+.list.ready::before {
+    border-top-color: #4288c3 ;
+}
+
+.list.done::before {
+    border-top-color: #4da914;
+}
