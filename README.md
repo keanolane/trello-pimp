@@ -1,6 +1,12 @@
 # trello-pimp
 Pimping Trello look & feel for SCRUM workflows
 
+**Board sample:**
+![Trello board](./screenshots/trello-pimp-board.png)
+
+**Card sample**
+![Trello card](./screenshots/trello-pimp-card.png)
+
 ## Requirements
 **This only supports Chrome (because some extensions are needed for now).**
 
@@ -81,3 +87,16 @@ Under `/* --- CUSTOM LIST STYLES --- */` in the **stylebot.css** file, simply ad
     border-top-color: {desiredColor};
 }
 ```
+
+## More Trello improvements
+
+To add titles inside labels, or add a counter on the board lists, you can install Stylish Chrome extension: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe 
+Then install the following styles in it:
+
+* Trello card count: https://userstyles.org/styles/89343/trello-card-count
+
+![Trello card count](./screenshots/trello-card-count.png)
+
+* Trello label overrides: https://userstyles.org/styles/111321/trello-label-overrides
+
+![Trello label overrides](./screenshots/trello-label-overrides.png)
