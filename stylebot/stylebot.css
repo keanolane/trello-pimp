@@ -474,53 +474,44 @@ strong {
 
 /* --- CUSTOM BOARDS STYLES --- */
 
-/* Eagle */
-.eagle .board-header {
+/* Insert any board specific CSS code here */
+/*
+.my-board .board-header {
     background: #663300 ;
-}
-
-.eagle .board-header * {
     color: white ;
 }
-
-/* Decanter */
-.decanter .board-header {
-    background: #942424 ;
-    color: white;
-}
-
-/* Trusted Reviews */
-.trusted-reviews .board-header {
-    background: #ff6600 ;
-    color: white;
-}
+*/
 
 /* --- CUSTOM LIST STYLES --- */
 
-.list.current-sprint::before {
-    border-top-color: #12bae0 ;
-}
-
-.list.blocked::before {
-    border-top-color: #d81313 ;
-}
-
-.list.doing::before {
-    border-top-color: #e2840f ;
-}
-
-.list.review::before {
-    border-top-color: #fdf610 ;
-}
-
-.list.validating::before {
-    border-top-color: #c717ca ;
-}
-
-.list.ready::before {
+.list.blue::before {
     border-top-color: #4288c3 ;
 }
 
-.list.done::before {
+.list.cyan::before {
+    border-top-color: #12bae0 ;
+}
+
+.list.green::before {
     border-top-color: #4da914;
+}
+
+.list.orange::before {
+    border-top-color: #e2840f ;
+}
+
+.list.pink::before {
+    border-top-color: #c717ca ;
+}
+
+.list.purple::before {
+    border-top-color: #9211fc ;
+}
+
+.list.red::before {
+    border-top-color: #d81313 ;
+}
+
+.list.yellow::before {
+    border-top-color: #fdf610 ;
 }
