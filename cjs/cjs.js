@@ -6,21 +6,22 @@ function applyStyle() {
     // key: title pattern to match
     // value: class to attach to the board
     var boardStyles = {
-        'eagle|affiliate': 'eagle',
-        'trusted reviews': 'trusted-reviews',
-        'decanter': 'decanter'
+        'friction free': 'friction-free',
+        'bau': 'bau',
+        'engineering': 'engineering'
     }
 
     // key: list pattern to match
     // value: class to attach to the board
     var listStyles = {
-        '^sprint': 'current-sprint',
-        'blocked|hold': 'blocked',
-        'doing|play|progress': 'doing',
-        'review': 'review',
-        'uat|validating': 'validating',
-        'ready': 'ready',
-        'done': 'done'
+        '^sprint|^current': 'cyan',
+        'blocked|hold': 'red',
+        'doing|play|progress': 'orange',
+        'writing spec': 'yellow',
+        'ready for sizing': 'purple',
+        'uat|validating|qa': 'pink',
+        'dev complete': 'blue',
+        'done|live': 'green'
     }
 
     // Dealing with boards style
