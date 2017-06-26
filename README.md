@@ -97,6 +97,6 @@ Then install the following styles in it:
 
 ![Trello card count](./screenshots/trello-card-count.png)
 
-* Trello label overrides: https://userstyles.org/styles/111321/trello-label-overrides
+* Trello label overrides: https://userstyles.org/styles/118321/trello-full-width-labels-with-text
 
-![Trello label overrides](./screenshots/trello-label-overrides.png)
+![Trello full-width labels with text](./screenshots/trello-label-overrides.png)
