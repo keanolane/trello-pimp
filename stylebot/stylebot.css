@@ -496,6 +496,10 @@ strong {
     border-top-color: #4da914;
 }
 
+.list.dark-green::before {
+    border-top-color: #09752b;
+}
+
 .list.orange::before {
     border-top-color: #e2840f ;
 }

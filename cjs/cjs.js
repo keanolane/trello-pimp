@@ -21,6 +21,7 @@ function applyStyle() {
         'ready for sizing': 'purple',
         'uat|validating|qa': 'pink',
         'dev complete': 'blue',
+        'ready to deploy': 'dark-green',
         'done|live': 'green'
     }
 
