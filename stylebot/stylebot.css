@@ -472,6 +472,17 @@ strong {
 
 /* ------------------- */
 
+/* --- CUSTOM CARDS STYLES --- */
+.separator-card {
+    background-color: #666666;
+    text-align: center;
+}
+.separator-card,
+.separator-card .list-card-details,
+.separator-card .list-card-details .list-card-title {
+    color: white;
+}
+
 /* --- CUSTOM BOARDS STYLES --- */
 
 /* Insert any board specific CSS code here */
