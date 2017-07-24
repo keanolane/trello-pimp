@@ -47,7 +47,7 @@ function applyStyle() {
 
     var $headersList = $('.list-header-name-assist');
 
-    $.each($headersList, function(index, header) {
+    $headersList.each(function(index, header) {
         var $header = $(header);
         var listName = $header.html().toLowerCase();
         var $list = $header.closest('.list');
@@ -63,6 +63,25 @@ function applyStyle() {
 
         if (className) {
             $list.addClass(className);
+        }
+    });
+
+    // Dealing with card separators
+
+    var separatorCardsSelector = '.list-card:not(.hide) .list-card-title.js-card-name';
+    var separatorCardsContentPattern = /\s*\-{2,}\s*/gi;
+    var separatorCardsContentReplacementPattern = '<hr>';
+    var separatorCards = $(separatorCardsSelector);
+
+    separatorCards.each(function(index, card) {
+        var $card = $(card);
+
+        if ($card.text().indexOf('---') !== -1) {
+            var newContent = $card.html().replace(separatorCardsContentPattern, separatorCardsContentReplacementPattern);
+
+            $card.html(newContent);
+
+            $card.closest('.list-card').addClass('separator-card');
         }
     });
 }
