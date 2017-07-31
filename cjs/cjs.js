@@ -16,11 +16,11 @@ function applyStyle() {
     var listStyles = {
         '^sprint|^current': 'cyan',
         'blocked|hold': 'red',
-        'doing|play|progress': 'orange',
-        'writing spec': 'yellow',
-        'ready for sizing': 'purple',
+        'doing|play|progress|development': 'orange',
+        'definition|writing spec': 'yellow',
+        'conception|ready for sizing': 'purple',
         'uat|validating|qa': 'pink',
-        'dev complete': 'blue',
+        'deployment|dev complete': 'blue',
         'ready to deploy': 'dark-green',
         'done|live': 'green'
     }
