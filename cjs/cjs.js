@@ -84,7 +84,10 @@ function applyStyle() {
             $card.closest('.list-card').addClass('separator-card');
         }
     });
+
+    $('title').on('DOMSubtreeModified', function() {
+        setTimeout(applyStyle, 2000);
+    });
 }
 
-$('title').on('DOMSubtreeModified', applyStyle);
 $(document).ready(applyStyle);
