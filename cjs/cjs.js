@@ -14,7 +14,7 @@ function applyStyle() {
     // key: list pattern to match
     // value: class to attach to the board
     var listStyles = {
-        '^sprint|^current': 'cyan',
+        'current sprint': 'cyan',
         'blocked|hold': 'red',
         'doing|play|progress|development': 'orange',
         'definition|writing spec': 'yellow',
