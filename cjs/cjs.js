@@ -84,10 +84,14 @@ function applyStyle() {
             $card.closest('.list-card').addClass('separator-card');
         }
     });
+}
+
+$(document).ready(function () {
+    "use strict";
 
     $('title').on('DOMSubtreeModified', function() {
         setTimeout(applyStyle, 2000);
     });
-}
 
-$(document).ready(applyStyle);
+    applyStyle();
+});
