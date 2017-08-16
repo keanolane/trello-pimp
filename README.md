@@ -100,3 +100,13 @@ Then install the following styles in it:
 * Trello label overrides: https://userstyles.org/styles/118321/trello-full-width-labels-with-text
 
 ![Trello full-width labels with text](./screenshots/trello-label-overrides.png)
+
+## More Tools
+
+### SCRUM Report Tool
+A SCRUM report tool is also available in **[cjs/scrum-report-tool.js](./cjs/scrum-report-tool.js)**
+In order to use it, simply include its content at the end of the CJS Chrome extension's textfield and save.
+
+#### Usage
+
+Open your browser console and run the following command to print the report: `getScrumReport()`
